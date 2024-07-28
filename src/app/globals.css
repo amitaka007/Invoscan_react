@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
+      background: #ffffff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.app-brand-logo {
+  width: 250px;
+}
+
+.app-brand-logo.dashboard {
+  width: 180px;
+}
+
+.react-responsive-modal-modal {
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px #ccc;
+}
+
+.react-responsive-modal-modal {
+  width: 100% !important;
+  max-width: 70% !important;
+}
+
+.react-responsive-modal-modal.booking-modal {
+  max-width: 97% !important;
+  background-color: #e5e7eb;
+  backdrop-filter: blur(4px);
+  --tw-backdrop-blur: blur(4px);
+}
+.react-responsive-modal-modal.users-modal {
+  max-width: 97% !important;
+}
+
+.react-responsive-modal-modal.custom-modal {
+  background-color: #e5e7eb;
+  top: 10%;
+}
+
+.menu-icon-red {
+  color: red !important;
+}
+
+.supplier-modal {
+  max-width: 55% !important;
+}
+
+.card-body-group {
+  max-height: 420px;
+  overflow-x: auto;
+  height: 100%;
+}
+
+.btn-green-borded {
+  border-color: #0bc993 !important;
+  color: #0bc993 !important;
+}
+
+.text-light-green {
+  background: #a7eddb;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.text-light-red {
+  color: #e62a2a;
+  /* padding: 5px 10px; */
+  border-radius: 10px;
+}
+
+.erkbiK div:first-child {
+  white-space: normal !important;
+}
+
+.ibgBY {
+  max-height: auto !important;
+}
+
+.react-datepicker-popper {
+  z-index: 99 !important;
+}
+
+.pl-0 {
+  padding-left: 0px !important;
+}
+
+.grid-flex {
+  display: flex;
+  height: max-content;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.form-check-input:checked, .form-check-input[type=checkbox]:indeterminate {
+  background-color: #0bc993 !important;
+  border-color: #0bc993 !important;
+  box-shadow: 0 2px 4px 0 #0bc993 !important;
+}
+.react-responsive-modal-modal {
+  vertical-align: top !important;
+}
+#ajax-loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #ffffffad;
+  z-index: 9999;
+  display: none;
+}
+#ajax-loader img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.file-upload-wrapper {
+  height: 150px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 13px;
+  clear: both;
+}
+.file-upload-wrapper .wrapper-uploader {
+  height: 137px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #16e9ad;
+  color: #16e9ad;
+}
+.card-header {
+  font-weight: bold;
+}
+.form-radio-check {
+  min-height: 40px !important;
+}
+.form-radio-check .form-check-input {
+  width: 1.8em;
+  height: 1.8em;
+  border-color: #0bc993;
+}
+.form-radio-check .form-check-label {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.width-100 {
+  width: 100%;
+}
+.company-select-modal {
+  max-width: 40% !important;
+}
+.width-86 {
+  width: 86%;
+}
+.react-datepicker-wrapper {
+  width: 95%;
+}
+.authentication-wrapper.authentication-basic .authentication-inner:before, .light-style .authentication-wrapper.authentication-basic .authentication-inner:after {
+  background-image: none !important;
+}

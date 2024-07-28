@@ -1,0 +1,127 @@
+html, body {
+  height: 100%;
+  overflow: auto;
+}
+#bgColor{
+    background-color: #0bc9931a;
+    color: #000;
+    cursor: pointer;
+}
+
+.drop-zone {
+  position: relative;
+  max-width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px dashed #16e9ad;
+  color: #16e9ad;
+  flex-direction: column;
+}
+
+.drop-zone__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.delivery-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 250px;
+  margin: 0 auto;
+}
+.pdf-section .react-pdf__Page__canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+.pdf-section .react-pdf__Page{
+    min-width: unset !important;
+}
+.pdf-section .react-pdf__Page__annotations {
+  width: unset !important;
+  height: unset !important;
+}
+.sc-dmXWDj.ibgBY {
+  border: 1px solid rgba(237, 237, 237, 1);
+}
+.faZveH{
+  border-bottom: 1px solid rgba(237, 237, 237, 1);
+}
+.lnOUep{
+  font-weight: 700;
+  color: #374151;
+  font-size: 16px;
+}
+#cell-1-107aed75-186f-4010-ab79-d8659ca3d7b0:hover{
+  color: #16e9ad;
+}
+.cTWGPQ:hover{
+  border-radius:0px !important;
+}
+
+.react-responsive-modal-modal.add-users-modal{
+  max-width: 55% !important;
+}
+.layout-container{
+  background: #f5f5f4;
+}
+#layout-menu {
+  height: 100vh;
+  position: sticky;
+  top: 0px;
+  /* width: 100%;
+  overflow-y: scroll; */
+}
+
+.react-responsive-modal-root{
+  backdrop-filter: blur(4px);
+  --tw-backdrop-blur: blur(4px);
+}
+
+.react-responsive-modal-modal.booking-modal {
+  max-width: 97% !important;
+  background-color: #e5e7eb;
+  backdrop-filter: blur(4px);
+  --tw-backdrop-blur: blur(4px);
+}
+
+.files-multiple-uploader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.file-upload-wrapper .wrapper-file-uploader {
+  height: 137px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px dashed #16e9ad;
+  color: #16e9ad;
+  padding: 8px;
+  overflow: auto;
+}
+.file-uploader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 137px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px dashed #16e9ad;
+  color: #16e9ad;
+  padding: 8px;
+  overflow: auto;
+}
